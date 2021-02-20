@@ -10,7 +10,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    background-color: darkviolet;
+    background-color: blueviolet;
     text-align: center;
     padding: 25px;
 }
@@ -22,7 +22,7 @@ h1 {
 }
 
 h3 {
-    color: darkviolet;
+    color: blueviolet;
 }
 
 h5 {
@@ -37,7 +37,7 @@ a {
 }
 
 button {
-    background-color: darkviolet;
+    background-color: blueviolet;
     padding: 8px;
     margin: 2px;
     color: white;
@@ -48,9 +48,9 @@ button {
 }
 
 .secret button {
-    background-color: darkviolet;
+    background-color: blueviolet;
     padding: 8px;
-    color: darkviolet;
+    color: blueviolet;
     border: none;
     border-radius: 5px;
 }
