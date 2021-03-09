@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url(Montserrat-Regular.ttf);
+    font-family: 'Nimbus Sans L';
+    src: url(nimbus-sans-l_regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L Bold Italic';
+    src: url(nimbus-sans-l_bold-italic.ttf);
 }
 
 .header button {
@@ -8,21 +13,21 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nimbus Sans L', sans-serif;
     color: white;
-    background-color: blueviolet;
+    background-color: black;
     text-align: center;
     padding: 25px;
 }
 
 h1 {
     margin: 0;
-    display: inline-block;
     float: left;
+    font-family: 'Nimbus Sans L Bold Italic', sans-serif;
 }
 
 h3 {
-    color: blueviolet;
+    color: black;
 }
 
 h5 {
@@ -37,20 +42,20 @@ a {
 }
 
 button {
-    background-color: blueviolet;
+    background-color: black;
     padding: 8px;
     margin: 2px;
     color: white;
     border: 2px solid #ffffff;
     border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nimbus Sans L', sans-serif;
 
 }
 
 .secret button {
-    background-color: blueviolet;
+    background-color: black;
     padding: 8px;
-    color: blueviolet;
+    color: black;
     border: none;
     border-radius: 5px;
 }
