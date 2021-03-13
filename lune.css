@@ -3,11 +3,6 @@
     src: url(nimbus-sans-l_regular.ttf);
 }
 
-@font-face {
-    font-family: 'Nimbus Sans L Bold Italic';
-    src: url(nimbus-sans-l_bold-italic.ttf);
-}
-
 .header button {
     float: right;
 }
@@ -15,7 +10,7 @@
 body {
     font-family: 'Nimbus Sans L', sans-serif;
     color: white;
-    background-color: black;
+    background-color: #6633CB;
     text-align: center;
     padding: 25px;
 }
@@ -23,11 +18,11 @@ body {
 h1 {
     margin: 0;
     float: left;
-    font-family: 'Nimbus Sans L Bold Italic', sans-serif;
+    font-family: 'Nimbus Sans L', sans-serif;
 }
 
 h3 {
-    color: black;
+    color: #6633CB;
 }
 
 h5 {
@@ -42,20 +37,20 @@ a {
 }
 
 button {
-    background-color: black;
+    background-color: #6633CB;
     padding: 8px;
     margin: 2px;
     color: white;
-    border: 2px solid #ffffff;
+    border: 2px solid #white;
     border-radius: 8px;
     font-family: 'Nimbus Sans L', sans-serif;
 
 }
 
 .secret button {
-    background-color: black;
+    background-color: #6633CB;
     padding: 8px;
-    color: black;
+    color: #6633CB;
     border: none;
     border-radius: 5px;
 }
