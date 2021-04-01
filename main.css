@@ -1,61 +1,8 @@
-@font-face {
-    font-family: 'Roboto Slab';
-    src: url(RobotoSlab-Regular.ttf);
-}
-
-.header button {
-    float: right;
-}
-
 body {
-    font-family: 'Roboto Slab', monospace;
-    color: white;
-    background-color: #DF5D86;
+    font-family: serif;
+    color: black;
+    background-color: white;
     text-align: center;
     padding: 25px;
-}
 
-a {
-    color: white;
-}
-
-h1 {
-    margin: 0;
-    display: inline-block;
-    float: left;
-}
-
-h3 {
-    color: #DF5D86;
-}
-
-h5 {
-    position: fixed;
-    bottom: 25px;
-    right: 0;
-    left: 0;   
-}
-
-p {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-button {
-    background-color: #DF5D86;
-    padding: 8px;
-    margin: 2px;
-    color: white;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-    font-family: 'Roboto Slab', monospace;
-
-}
-
-.secret button {
-    background-color: #DF5D86;
-    padding: 8px;
-    color: #DF5D86;
-    border: none;
-    border-radius: 5px;
 }
